@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		467C297F200F3D3000434FB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 467C297E200F3D3000434FB1 /* AppDelegate.m */; };
+		467C2984200F3D3100434FB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467C2983200F3D3100434FB1 /* Assets.xcassets */; };
+		467C2987200F3D3100434FB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467C2985200F3D3100434FB1 /* Main.storyboard */; };
+		467C298A200F3D3100434FB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 467C2989200F3D3100434FB1 /* main.m */; };
+		467C2993200F3E3100434FB1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 467C2992200F3E3100434FB1 /* MainViewController.m */; };
+		467C2998200F40FD00434FB1 /* YQNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 467C2997200F40FD00434FB1 /* YQNetworkHelper.m */; };
+		467C299E200F419A00434FB1 /* RelateArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 467C299A200F419A00434FB1 /* RelateArticle.m */; };
+		467C299F200F419A00434FB1 /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = 467C299D200F419A00434FB1 /* Article.m */; };
+		467C29A4200F41DD00434FB1 /* MainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 467C29A1200F41DD00434FB1 /* MainCell.m */; };
+		467C29A5200F41DD00434FB1 /* MainCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 467C29A2200F41DD00434FB1 /* MainCell.xib */; };
+		748E4A536A3534CC04B98851 /* libPods-ReadHub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0157ABB173BA78D8171C2B /* libPods-ReadHub.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		30694B0A3B8900DE8F81F9D5 /* Pods-ReadHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReadHub.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReadHub/Pods-ReadHub.release.xcconfig"; sourceTree = "<group>"; };
+		467C297A200F3D3000434FB1 /* ReadHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		467C297D200F3D3000434FB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		467C297E200F3D3000434FB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		467C2983200F3D3100434FB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		467C2986200F3D3100434FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		467C2988200F3D3100434FB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		467C2989200F3D3100434FB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		467C298B200F3D3100434FB1 /* ReadHub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReadHub.entitlements; sourceTree = "<group>"; };
+		467C2991200F3E3100434FB1 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		467C2992200F3E3100434FB1 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		467C2996200F40FD00434FB1 /* YQNetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQNetworkHelper.h; sourceTree = "<group>"; };
+		467C2997200F40FD00434FB1 /* YQNetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQNetworkHelper.m; sourceTree = "<group>"; };
+		467C299A200F419A00434FB1 /* RelateArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelateArticle.m; sourceTree = "<group>"; };
+		467C299B200F419A00434FB1 /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
+		467C299C200F419A00434FB1 /* RelateArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelateArticle.h; sourceTree = "<group>"; };
+		467C299D200F419A00434FB1 /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
+		467C29A1200F41DD00434FB1 /* MainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCell.m; sourceTree = "<group>"; };
+		467C29A2200F41DD00434FB1 /* MainCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainCell.xib; sourceTree = "<group>"; };
+		467C29A3200F41DD00434FB1 /* MainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCell.h; sourceTree = "<group>"; };
+		B3B12E6C7618DD7A10DC0A0F /* Pods-ReadHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReadHub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReadHub/Pods-ReadHub.debug.xcconfig"; sourceTree = "<group>"; };
+		BA0157ABB173BA78D8171C2B /* libPods-ReadHub.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReadHub.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		467C2977200F3D3000434FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				748E4A536A3534CC04B98851 /* libPods-ReadHub.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E9289C8468A9B62FD8D2343 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3B12E6C7618DD7A10DC0A0F /* Pods-ReadHub.debug.xcconfig */,
+				30694B0A3B8900DE8F81F9D5 /* Pods-ReadHub.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		467C2971200F3D3000434FB1 = {
+			isa = PBXGroup;
+			children = (
+				467C297C200F3D3000434FB1 /* ReadHub */,
+				467C297B200F3D3000434FB1 /* Products */,
+				2E9289C8468A9B62FD8D2343 /* Pods */,
+				74FE95B1FC3D7EBC920F157D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		467C297B200F3D3000434FB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				467C297A200F3D3000434FB1 /* ReadHub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		467C297C200F3D3000434FB1 /* ReadHub */ = {
+			isa = PBXGroup;
+			children = (
+				467C29A0200F41CB00434FB1 /* view */,
+				467C2999200F418800434FB1 /* model */,
+				467C2995200F3EA600434FB1 /* vendor */,
+				467C2994200F3E7600434FB1 /* controller */,
+				467C297D200F3D3000434FB1 /* AppDelegate.h */,
+				467C297E200F3D3000434FB1 /* AppDelegate.m */,
+				467C2983200F3D3100434FB1 /* Assets.xcassets */,
+				467C2985200F3D3100434FB1 /* Main.storyboard */,
+				467C2988200F3D3100434FB1 /* Info.plist */,
+				467C2989200F3D3100434FB1 /* main.m */,
+				467C298B200F3D3100434FB1 /* ReadHub.entitlements */,
+			);
+			path = ReadHub;
+			sourceTree = "<group>";
+		};
+		467C2994200F3E7600434FB1 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				467C2991200F3E3100434FB1 /* MainViewController.h */,
+				467C2992200F3E3100434FB1 /* MainViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		467C2995200F3EA600434FB1 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				467C2996200F40FD00434FB1 /* YQNetworkHelper.h */,
+				467C2997200F40FD00434FB1 /* YQNetworkHelper.m */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		467C2999200F418800434FB1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				467C299B200F419A00434FB1 /* Article.h */,
+				467C299D200F419A00434FB1 /* Article.m */,
+				467C299C200F419A00434FB1 /* RelateArticle.h */,
+				467C299A200F419A00434FB1 /* RelateArticle.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		467C29A0200F41CB00434FB1 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				467C29A2200F41DD00434FB1 /* MainCell.xib */,
+				467C29A3200F41DD00434FB1 /* MainCell.h */,
+				467C29A1200F41DD00434FB1 /* MainCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		74FE95B1FC3D7EBC920F157D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA0157ABB173BA78D8171C2B /* libPods-ReadHub.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		467C2979200F3D3000434FB1 /* ReadHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467C298E200F3D3100434FB1 /* Build configuration list for PBXNativeTarget "ReadHub" */;
+			buildPhases = (
+				E9A981263A397CC8D6929710 /* [CP] Check Pods Manifest.lock */,
+				467C2976200F3D3000434FB1 /* Sources */,
+				467C2977200F3D3000434FB1 /* Frameworks */,
+				467C2978200F3D3000434FB1 /* Resources */,
+				57D3EF231552125F47C513B5 /* [CP] Embed Pods Frameworks */,
+				A1E31EF16921610B879B19C1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReadHub;
+			productName = ReadHub;
+			productReference = 467C297A200F3D3000434FB1 /* ReadHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		467C2972200F3D3000434FB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = chenyuqiao;
+				TargetAttributes = {
+					467C2979200F3D3000434FB1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 467C2975200F3D3000434FB1 /* Build configuration list for PBXProject "ReadHub" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 467C2971200F3D3000434FB1;
+			productRefGroup = 467C297B200F3D3000434FB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				467C2979200F3D3000434FB1 /* ReadHub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		467C2978200F3D3000434FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467C2984200F3D3100434FB1 /* Assets.xcassets in Resources */,
+				467C2987200F3D3100434FB1 /* Main.storyboard in Resources */,
+				467C29A5200F41DD00434FB1 /* MainCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57D3EF231552125F47C513B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReadHub/Pods-ReadHub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1E31EF16921610B879B19C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReadHub/Pods-ReadHub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9A981263A397CC8D6929710 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReadHub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		467C2976200F3D3000434FB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467C2998200F40FD00434FB1 /* YQNetworkHelper.m in Sources */,
+				467C298A200F3D3100434FB1 /* main.m in Sources */,
+				467C299F200F419A00434FB1 /* Article.m in Sources */,
+				467C297F200F3D3000434FB1 /* AppDelegate.m in Sources */,
+				467C29A4200F41DD00434FB1 /* MainCell.m in Sources */,
+				467C2993200F3E3100434FB1 /* MainViewController.m in Sources */,
+				467C299E200F419A00434FB1 /* RelateArticle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		467C2985200F3D3100434FB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				467C2986200F3D3100434FB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		467C298C200F3D3100434FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		467C298D200F3D3100434FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		467C298F200F3D3100434FB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3B12E6C7618DD7A10DC0A0F /* Pods-ReadHub.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ReadHub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cyq.ReadHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		467C2990200F3D3100434FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30694B0A3B8900DE8F81F9D5 /* Pods-ReadHub.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ReadHub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cyq.ReadHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		467C2975200F3D3000434FB1 /* Build configuration list for PBXProject "ReadHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467C298C200F3D3100434FB1 /* Debug */,
+				467C298D200F3D3100434FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467C298E200F3D3100434FB1 /* Build configuration list for PBXNativeTarget "ReadHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467C298F200F3D3100434FB1 /* Debug */,
+				467C2990200F3D3100434FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 467C2972200F3D3000434FB1 /* Project object */;
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <tableCellView identifier="maincell" id="vFQ-YA-pt5" customClass="MainCell">
+            <rect key="frame" x="0.0" y="0.0" width="470" height="160"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="LpU-9F-cOd">
+                    <rect key="frame" x="20" y="60" width="430" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="80" id="I5O-9H-Su0"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" alignment="left" placeholderString="ddd" drawsBackground="YES" id="x6G-Nn-6UU">
+                        <font key="font" metaFont="system" size="16"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5tU-Qw-w7z">
+                    <rect key="frame" x="20" y="18" width="96" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="96" id="f6D-5J-cF2"/>
+                    </constraints>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="left" drawsBackground="YES" id="gO6-Rn-ILV">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="5tU-Qw-w7z" firstAttribute="leading" secondItem="LpU-9F-cOd" secondAttribute="leading" id="Jfp-sW-cdf"/>
+                <constraint firstItem="LpU-9F-cOd" firstAttribute="leading" secondItem="vFQ-YA-pt5" secondAttribute="leading" constant="20" id="KXd-Vg-TXo"/>
+                <constraint firstItem="LpU-9F-cOd" firstAttribute="top" secondItem="vFQ-YA-pt5" secondAttribute="top" constant="20" id="V1b-Gc-fOb"/>
+                <constraint firstItem="5tU-Qw-w7z" firstAttribute="top" secondItem="LpU-9F-cOd" secondAttribute="bottom" constant="20" id="VrH-Sz-KEH"/>
+                <constraint firstAttribute="trailing" secondItem="LpU-9F-cOd" secondAttribute="trailing" constant="20" id="WsO-iT-gn5"/>
+            </constraints>
+            <connections>
+                <outlet property="timeText" destination="5tU-Qw-w7z" id="KJ1-Kg-eU8"/>
+                <outlet property="titleText" destination="LpU-9F-cOd" id="OfP-eD-f0p"/>
+            </connections>
+            <point key="canvasLocation" x="-800" y="52"/>
+        </tableCellView>
+    </objects>
+</document>

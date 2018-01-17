@@ -1,0 +1,15 @@
+//
+//  MainCell.h
+//  NsTab
+//
+//  Created by nickchen on 2018/1/17.
+//  Copyright © 2018年 chenyuqiao. All rights reserved.
+//
+
+#import <Cocoa/Cocoa.h>
+
+@interface MainCell : NSTableCellView
+@property (weak) IBOutlet NSTextField *titleText;
+@property (weak) IBOutlet NSTextField *timeText;
+
+@end
